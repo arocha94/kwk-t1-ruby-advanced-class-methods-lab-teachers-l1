@@ -31,11 +31,11 @@ class Song
   end 
   
   def self.alphabetical(song_name)
-    
+    self.all.sort_by{|s| s.name}
   end 
   
   def new_from_filename(song_name)
-   
+    
   end 
   
   def self.create_from_filename(song_name)
