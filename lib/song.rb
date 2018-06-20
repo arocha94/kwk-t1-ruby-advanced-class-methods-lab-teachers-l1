@@ -22,27 +22,27 @@ class Song
     song
   end 
   
-  def self.find_by_name()
+  def self.find_by_name(song_name)
     self.all.detect{|s| s.name == song_name}
   end 
   
-  def self.find_or_create_by_name
+  def self.find_or_create_by_name(song_name)
     
   end 
   
-  def self.alphabetical
+  def self.alphabetical(song_name)
   
   end 
   
-  def new_from_filename
+  def new_from_filename(song_name)
    
   end 
   
-  def self.create_from_filename
+  def self.create_from_filename(song_name)
     
   end 
   
-  def self.destroy_all 
+  def self.destroy_all(song_name) 
     
   end 
   
